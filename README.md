@@ -92,3 +92,4 @@ Caused by: java.lang.NoClassDefFoundError: com.android.ide.common.resources.Asse
         ... 34 more
 ```
 
+Removing the annotation `@CompileStatic` works.
