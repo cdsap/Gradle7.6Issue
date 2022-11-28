@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+    id 'java-gradle-plugin'
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation ("com.android.tools.build:gradle:7.0.4")
+    implementation("com.android.tools:common:30.0.4")
+    implementation gradleApi()
+}
